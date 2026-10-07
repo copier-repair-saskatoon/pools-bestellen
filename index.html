@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pools bestellen für einen schönen Garten</title>
+
+    <meta name="description" content="Pools bestellen und den eigenen Garten aufwerten. Tipps zur Poolauswahl, Ausstattung, Pflege und Gestaltung des perfekten Außenbereichs.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3f8fa;
+            color: #293c45;
+            line-height: 1.75;
+        }
+
+        /* Header */
+        .top-header {
+            background: #ffffff;
+            border-bottom: 1px solid #dce8ec;
+            padding: 18px 20px;
+        }
+
+        .nav-container {
+            max-width: 1150px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 700;
+            color: #075e74;
+            text-decoration: none;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            color: #31464f;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .nav-menu a:hover {
+            color: #0a91a5;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(
+                135deg,
+                #075e74,
+                #1596aa
+            );
+            color: #ffffff;
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 44px;
+            line-height: 1.2;
+            margin-bottom: 22px;
+        }
+
+        .hero p {
+            max-width: 780px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        /* Main */
+        .container {
+            max-width: 1150px;
+            margin: 55px auto;
+            padding: 0 20px;
+        }
+
+        .content-box {
+            background: #ffffff;
+            padding: 42px;
+            margin-bottom: 32px;
+            border-radius: 16px;
+            box-shadow: 0 8px 28px rgba(31, 76, 91, 0.08);
+        }
+
+        h2 {
+            color: #075e74;
+            font-size: 31px;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #0b8da1;
+            font-size: 23px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+
+        /* Keyword Link */
+        .keyword-link {
+            color: #087d93;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .keyword-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Feature Cards */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: #eef8fa;
+            padding: 28px 24px;
+            border-radius: 13px;
+            border-top: 4px solid #1596aa;
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            font-size: 21px;
+        }
+
+        .feature-card p {
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+
+        /* List */
+        .check-list {
+            margin: 20px 0 10px 22px;
+        }
+
+        .check-list li {
+            margin-bottom: 12px;
+            padding-left: 5px;
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: #f2f8fa;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 18px;
+        }
+
+        .faq-item h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .faq-item p {
+            margin-bottom: 0;
+        }
+
+        /* CTA */
+        .cta {
+            background: linear-gradient(
+                135deg,
+                #e2f5f8,
+                #d2edf2
+            );
+            padding: 48px 35px;
+            border-radius: 16px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .cta h2 {
+            margin-bottom: 15px;
+        }
+
+        .cta p {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Footer */
+        footer {
+            background: #19333d;
+            color: #d8e7eb;
+            padding: 50px 20px 25px;
+        }
+
+        .footer-container {
+            max-width: 1150px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+
+        footer h3 {
+            color: #ffffff;
+            margin-top: 0;
+            margin-bottom: 18px;
+            font-size: 22px;
+        }
+
+        footer p {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #8fe0ea;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            max-width: 1150px;
+            margin: 35px auto 0;
+            padding-top: 22px;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            text-align: center;
+            font-size: 14px;
+            color: #b8ccd1;
+        }
+
+        /* Responsive */
+        @media (max-width: 850px) {
+
+            .nav-container {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .nav-menu {
+                gap: 17px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero {
+                padding: 65px 20px;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            .nav-menu {
+                gap: 12px;
+            }
+
+            .nav-menu a {
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .content-box {
+                padding: 28px 22px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            .cta {
+                padding: 35px 22px;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Header -->
+    <header class="top-header">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                Pool & Garten
+            </a>
+
+            <nav>
+                <ul class="nav-menu">
+
+                    <li>
+                        <a href="#home">Startseite</a>
+                    </li>
+
+                    <li>
+                        <a href="#auswahl">Poolauswahl</a>
+                    </li>
+
+                    <li>
+                        <a href="#ausstattung">Ausstattung</a>
+                    </li>
+
+                    <li>
+                        <a href="#pflege">Pflege</a>
+                    </li>
+
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>
+                Pools bestellen für einen schönen und erholsamen Garten
+            </h1>
+
+            <p>
+                Wichtige Tipps zur Auswahl, Ausstattung, Pflege und Gestaltung
+                eines eigenen Pools für einen komfortablen Außenbereich.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Main Content -->
+    <main class="container">
+
+
+        <!-- Introduction -->
+        <section class="content-box">
+
+            <h2>
+                Den eigenen Garten mit einem Pool aufwerten
+            </h2>
+
+            <p>
+                Ein eigener Pool im Garten bietet an warmen Tagen eine
+                angenehme Möglichkeit, sich abzukühlen, zu entspannen und
+                wertvolle Zeit mit Familie und Freunden zu verbringen.
+                Gleichzeitig kann ein gut geplanter Pool den Außenbereich
+                optisch aufwerten und einen attraktiven Mittelpunkt schaffen.
+            </p>
+
+            <p>
+                Wer einen Pool kaufen möchte, sollte jedoch nicht nur auf
+                das Design achten. Größe, Form, Material, Wassertiefe,
+                Ausstattung und Pflegeaufwand spielen ebenfalls eine wichtige
+                Rolle. Auch die verfügbare Gartenfläche sollte vor dem Kauf
+                sorgfältig geprüft werden.
+            </p>
+
+            <p>
+                Wenn Sie
+                <a
+                    href="https://pool.net/"
+                    class="keyword-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    pools bestellen
+                </a>
+                möchten, lohnt es sich, verschiedene Modelle und deren
+                Eigenschaften miteinander zu vergleichen. Eine gute Vorbereitung
+                hilft dabei, eine Lösung zu finden, die sowohl zum Garten als
+                auch zu den persönlichen Anforderungen passt.
+            </p>
+
+        </section>
+
+
+        <!-- Pool Selection -->
+        <section class="content-box" id="auswahl">
+
+            <h2>
+                Den passenden Pool für den eigenen Garten auswählen
+            </h2>
+
+            <p>
+                Bevor ein Pool bestellt wird, sollte zunächst die verfügbare
+                Fläche im Garten genau ausgemessen werden. Dabei sollte nicht
+                nur die Fläche für das Becken selbst berücksichtigt werden.
+                Auch ausreichend Platz für den Zugang, die Poolpflege und
+                technische Komponenten sollte eingeplant werden.
+            </p>
+
+            <p>
+                Kleine Aufstellpools können sich besonders für kompakte Gärten
+                eignen. Größere Modelle bieten dagegen mehr Platz zum Schwimmen
+                und können für Familien interessant sein. Die Entscheidung
+                hängt letztlich davon ab, wie der Pool genutzt werden soll.
+            </p>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <h3>Die richtige Größe</h3>
+
+                    <p>
+                        Die Poolgröße sollte zur verfügbaren Gartenfläche und
+                        zur geplanten Nutzung passen. Vor dem Kauf ist es
+                        sinnvoll, den vorgesehenen Bereich genau auszumessen.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>Die passende Form</h3>
+
+                    <p>
+                        Rechteckige, runde und ovale Modelle bieten verschiedene
+                        Gestaltungsmöglichkeiten und können unterschiedlich gut
+                        in den vorhandenen Garten integriert werden.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>Die Wassertiefe</h3>
+
+                    <p>
+                        Auch die gewünschte Wassertiefe sollte berücksichtigt
+                        werden. Sie sollte zur geplanten Nutzung und zu den
+                        persönlichen Anforderungen passen.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Equipment -->
+        <section class="content-box" id="ausstattung">
+
+            <h2>
+                Die richtige Ausstattung für den Pool
+            </h2>
+
+            <p>
+                Neben dem Pool selbst spielt die Ausstattung eine wichtige
+                Rolle. Eine passende technische Lösung kann die Pflege
+                erleichtern und dazu beitragen, dass das Wasser länger sauber
+                und angenehm bleibt.
+            </p>
+
+            <h3>
+                Filter- und Reinigungssysteme
+            </h3>
+
+            <p>
+                Ein geeignetes Filtersystem unterstützt die Wasserzirkulation
+                und hilft dabei, kleine Partikel aus dem Wasser zu entfernen.
+                Zusätzlich können Kescher, Poolbürsten und andere Reinigungsgeräte
+                für die regelmäßige Pflege eingesetzt werden.
+            </p>
+
+            <h3>
+                Poolabdeckungen
+            </h3>
+
+            <p>
+                Eine geeignete Poolabdeckung kann das Wasser vor Blättern,
+                Staub und anderen äußeren Einflüssen schützen. Besonders in
+                Zeiten, in denen der Pool nicht genutzt wird, kann eine
+                Abdeckung die tägliche Reinigung erleichtern.
+            </p>
+
+            <h3>
+                Beleuchtung und zusätzliches Zubehör
+            </h3>
+
+            <p>
+                Wer den Pool auch in den Abendstunden nutzen möchte, kann
+                eine passende Beleuchtung in Betracht ziehen. Leitern,
+                Thermometer, Reinigungszubehör und weitere praktische
+                Ergänzungen können ebenfalls den Komfort erhöhen.
+            </p>
+
+        </section>
+
+
+        <!-- Maintenance -->
+        <section class="content-box" id="pflege">
+
+            <h2>
+                Poolpflege von Anfang an einplanen
+            </h2>
+
+            <p>
+                Ein Pool bringt viel Freizeitvergnügen, benötigt aber auch
+                regelmäßige Pflege. Eine konsequente Wartungsroutine hilft
+                dabei, die Wasserqualität zu erhalten und technische
+                Komponenten zuverlässig zu nutzen.
+            </p>
+
+            <p>
+                Das Wasser sollte regelmäßig kontrolliert und bei Bedarf
+                entsprechend aufbereitet werden. Filter und Pumpen sollten
+                ebenfalls regelmäßig überprüft und gereinigt werden.
+                Blätter und grober Schmutz sollten möglichst schnell entfernt
+                werden, damit sie sich nicht unnötig im Wasser ansammeln.
+            </p>
+
+            <ul class="check-list">
+
+                <li>
+                    Wasserqualität regelmäßig überprüfen.
+                </li>
+
+                <li>
+                    Blätter und sichtbaren Schmutz entfernen.
+                </li>
+
+                <li>
+                    Filter regelmäßig kontrollieren und reinigen.
+                </li>
+
+                <li>
+                    Pumpen und technische Komponenten überprüfen.
+                </li>
+
+                <li>
+                    Poolabdeckung bei Nichtbenutzung verwenden.
+                </li>
+
+                <li>
+                    Reinigungszubehör sauber und trocken aufbewahren.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- Garden Design -->
+        <section class="content-box">
+
+            <h2>
+                Den Garten rund um den Pool gestalten
+            </h2>
+
+            <p>
+                Neben dem Pool selbst sollte auch die Umgebung in die Planung
+                einbezogen werden. Eine gepflegte Terrasse, bequeme Gartenmöbel
+                und eine passende Beleuchtung können den Poolbereich zu einem
+                attraktiven Mittelpunkt des Gartens machen.
+            </p>
+
+            <p>
+                Auch der Boden rund um den Pool sollte sorgfältig ausgewählt
+                werden. Geeignete und rutschhemmende Flächen können den
+                Komfort erhöhen und die Nutzung des Außenbereichs angenehmer
+                gestalten.
+            </p>
+
+            <p>
+                Pflanzen, Sonnenschutz und dekorative Elemente können zusätzlich
+                für eine angenehme Atmosphäre sorgen. Gleichzeitig sollte
+                ausreichend Platz für Wartungsarbeiten und den sicheren Zugang
+                zum Pool vorhanden sein.
+            </p>
+
+        </section>
+
+
+        <!-- Buying Tips -->
+        <section class="content-box">
+
+            <h2>
+                Wichtige Tipps vor der Bestellung
+            </h2>
+
+            <p>
+                Vor einer Bestellung empfiehlt es sich, verschiedene Modelle
+                miteinander zu vergleichen. Neben dem Preis sollten auch
+                Materialqualität, Stabilität, Aufbau, Pflegeaufwand und
+                verfügbare Zusatzfunktionen berücksichtigt werden.
+            </p>
+
+            <p>
+                Ebenso wichtig ist die Frage, wie häufig der Pool genutzt
+                werden soll. Ein Pool für gelegentliche Sommerwochenenden
+                kann andere Anforderungen haben als eine Anlage, die während
+                der gesamten warmen Jahreszeit regelmäßig genutzt wird.
+            </p>
+
+            <p>
+                Eine durchdachte Kaufentscheidung kann langfristig Zeit und
+                Aufwand sparen. Wer Größe, Ausstattung und Pflegeanforderungen
+                bereits vor dem Kauf berücksichtigt, kann den Pool besser an
+                die eigenen Bedürfnisse anpassen.
+            </p>
+
+        </section>
+
+
+        <!-- FAQ -->
+        <section class="content-box" id="faq">
+
+            <h2>
+                Häufig gestellte Fragen
+            </h2>
+
+
+            <div class="faq-item">
+
+                <h3>
+                    Welcher Pool eignet sich für einen kleinen Garten?
+                </h3>
+
+                <p>
+                    Für kleinere Gärten können kompakte Aufstellpools oder
+                    Modelle mit platzsparenden Formen eine gute Wahl sein.
+                    Vor dem Kauf sollte die verfügbare Fläche genau
+                    ausgemessen werden.
+                </p>
+
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>
+                    Welche Ausstattung ist besonders wichtig?
+                </h3>
+
+                <p>
+                    Eine passende Filteranlage, Reinigungszubehör und eine
+                    geeignete Abdeckung gehören zu den wichtigsten
+                    Ausstattungen. Je nach Nutzung können Beleuchtung,
+                    Heizung und zusätzliche Sicherheitslösungen sinnvoll sein.
+                </p>
+
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>
+                    Wie oft muss ein Pool gereinigt werden?
+                </h3>
+
+                <p>
+                    Die Häufigkeit hängt unter anderem von der Nutzung,
+                    der Umgebung und der Poolgröße ab. Eine regelmäßige
+                    Kontrolle des Wassers sowie die Entfernung von Schmutz
+                    und Blättern gehören zur grundlegenden Poolpflege.
+                </p>
+
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>
+                    Warum ist eine Poolabdeckung sinnvoll?
+                </h3>
+
+                <p>
+                    Eine Abdeckung kann das Wasser vor Blättern, Staub und
+                    anderen äußeren Einflüssen schützen. Dadurch kann die
+                    tägliche Reinigung erleichtert werden.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Conclusion -->
+        <section class="content-box">
+
+            <h2>
+                Fazit
+            </h2>
+
+            <p>
+                Wer einen Pool für den eigenen Garten plant, sollte sich
+                ausreichend Zeit für die Auswahl nehmen. Größe und Design
+                sind zwar wichtige Faktoren, doch auch Material, Filtertechnik,
+                Pflegeaufwand und passende Zusatzgeräte sollten berücksichtigt
+                werden.
+            </p>
+
+            <p>
+                Mit einer durchdachten Planung lässt sich ein Pool schaffen,
+                der nicht nur optisch zum Garten passt, sondern auch langfristig
+                für entspannte und angenehme Stunden sorgt. Die richtige
+                Ausstattung und eine regelmäßige Pflege tragen dazu bei,
+                den Pool während der gesamten Saison sauber, komfortabel und
+                einsatzbereit zu halten.
+            </p>
+
+            <p>
+                Eine sorgfältige Vorbereitung vor dem Kauf macht es einfacher,
+                eine passende Lösung für den eigenen Außenbereich zu finden.
+                So kann der Garten Schritt für Schritt zu einem angenehmen
+                Ort für Erholung, Freizeit und gemeinsame Stunden werden.
+            </p>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta">
+
+            <h2>
+                Den eigenen Pool sorgfältig planen
+            </h2>
+
+            <p>
+                Berücksichtigen Sie vor der Auswahl die verfügbare Fläche,
+                gewünschte Nutzung, Ausstattung und langfristigen
+                Pflegeanforderungen. Eine gute Planung schafft die Grundlage
+                für einen komfortablen und attraktiven Poolbereich.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+
+                <h3>Kontakt</h3>
+
+                <p>
+                    Adresse: Otto-Hahn-Ring 9, 64653 Lorsch, Deutschland
+                </p>
+
+                <p>
+                    Telefon: +49 (0)6251 850 21 10
+                </p>
+
+                <p>
+                    E-Mail:
+                    <a href="mailto:info@pool.net">
+                        info@pool.net
+                    </a>
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Website</h3>
+
+                <p>
+                    <a
+                        href="https://pool.net/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        https://pool.net/
+                    </a>
+                </p>
+
+                <p>
+                    Informationen rund um Pools, Zubehör und eine
+                    praktische Poolgestaltung entdecken.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+            © 2026 Alle Rechte vorbehalten.
+        </div>
+
+    </footer>
+
+</body>
+</html>
